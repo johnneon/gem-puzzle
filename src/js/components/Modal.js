@@ -36,14 +36,14 @@ export default class Modal {
   }
 
   rulesModal = () => {
-    const title = create('h2', 'title', 'Игра пятнашки');
-    const rulesTitle = create('h3', 'subtitle', 'Правила игры:');
+    const title = create('h2', 'title', 'Gem pazzle');
+    const rulesTitle = create('h3', 'subtitle', 'Rules of the game:');
     const rulesText = [
-      'Игра представляет собой набор одинаковых квадратных костяшек с нанесёнными числами, заключённых в квадратную коробку. Длина стороны коробки в четыре раза больше длины стороны костяшек для набора из 15 элементов, соответственно в коробке остаётся незаполненным одно квадратное поле. Цель игры — перемещая костяшки по коробке, добиться упорядочивания их по номерам, желательно сделав как можно меньше перемещений.',
-      'Звук включается и выключается по нажатию на пункт «Sound», при перезагрузке страницы он по умолчанию выкючен.',
-      'Смена размера поля, а также режим замены поля на картинку находится в пункте «Settings». По нажатию на «Reset All» вы можете сбросить всю игру, включая сохранения и все настройки.',
-      'Таблица 10 лучших мест во вкладке «Best score», топ результатов расчитывается исходя из кол-ва сделаных ходов (по правилам игры).',
-      'В случае если вы воспользовались авторешением (кнопка «Solve» между таймером и кликами), результат не будет записан в «Best score», но вы насладитесь анимацией решения :)',
+      'The game is a set of identical square dice with applied numbers, enclosed in a square box. The length of the side of the box is four times the length of the side of the knuckles for a set of 15 elements, respectively, one square field remains empty in the box. The goal of the game is to move the knuckles around the box to arrange them by numbers, preferably by making as few movements as possible.',
+      'The sound is turned on and off by clicking on the "Sound" item; when the page is reloaded, it is disabled by default.',
+      'Changing the size of the field, as well as the mode of replacing the field with a picture is in the item "Settings" By clicking on "Reset All" you can reset the entire game, including the save and all settings.',
+      'The table of the 10 best places in the "Best score" tab, the top results are calculated based on the number of moves made (according to the rules of the game).',
+      'If you used the auto-solution (the "Solve" button between the timer and clicks), the result will not be recorded in the "Best score", but you will enjoy the animation of the solution :)',
     ];
 
     const rules = create('div', 'rules', [title, rulesTitle]);

@@ -15,18 +15,6 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
 
-    new CopyWebpackPlugin({
-      patterns: [
-        {
-          from: paths.public,
-          to: 'assets',
-          globOptions: {
-            ignore: ['*.DS_Store'],
-          },
-        },
-      ],
-    }),
-
     new HtmlWebpackPlugin({
       title: 'Gem-puzzle',
       favicon: `${paths.src}/images/favicon.ico`,
