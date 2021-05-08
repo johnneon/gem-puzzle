@@ -1,5 +1,7 @@
 # Gem pazzle
 
+[Deploy](johnneon-gem-puzzle.netlify.app)
+
 The game is a set of identical square dice with applied numbers, enclosed in a square box. The length of the side of the box is four times the length of the side of the knuckles for a set of 15 elements, respectively, one square field remains empty in the box. The goal of the game is to move the knuckles around the box, to achieve ordering them by numbers, preferably by making as few movements as possible
 
  - Used eslint (eslint-config-airbnb-base), webpack
